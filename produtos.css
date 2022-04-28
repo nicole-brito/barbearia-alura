@@ -1,23 +1,22 @@
 header {
     background-color: #BBBBBB;
-    padding: 20px 0;
+    padding: 20px 0; 
 }
 
 .caixa{
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
+    position: relative;    margin: auto 5%;
 }
 
 nav {
-    position: absolute;
+    position:absolute;
     top: 110px;
-    right: 0px;
+    right: 5%;
 }
 
 nav li {
     display: inline;
     margin:  0 15px 0 15px;
+    
 }
 
 nav a {
@@ -28,11 +27,29 @@ nav a {
     color: #000000;
 }
 
+nav a:hover {
+    color: crimson;
+    
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
+
+.produtos li:hover{
+    border-color: crimson;
+}
+
+.produtos li:hover h2 {
+    font-size: 36px;
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
 
 .produtos li {
     display: inline-block;
@@ -61,3 +78,14 @@ nav a {
     font-size: 18px;
 }
 
+footer {
+    background: url("assets/bg.jpg");
+    text-align: center; 
+    padding: 10 px 0;
+}
+
+.p-footer {
+    font-size: 14px;
+    color: #fff;
+    margin: 8px 0;
+}
